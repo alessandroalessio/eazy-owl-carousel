@@ -1,0 +1,14 @@
+body.post-type-eazy_owl_carousel #titlediv .inside{
+    display: none;
+}
+body.post-type-eazy_owl_carousel .shortcode-wrapper:before{
+    content: 'Shortcode: ';
+}
+body.post-type-eazy_owl_carousel .shortcode-wrapper #shortcode{
+    display: inline-block;
+    border: 1px solid #ccc;
+    margin-top: 15px;
+    padding: 8px;
+    width: 100%;
+    max-width: 300px;
+}
