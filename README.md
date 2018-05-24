@@ -1,7 +1,7 @@
-# Eazy OWL Carousel
+# Eazy OWL Carousel for Wordpress
 **version 0.5**
 
-This plugin allow to create a custom post type name "Carousel" that you implement in your custom theme.
+This plugin for Wordpress allow to create a custom post type name "Carousel" that you implement in your custom theme.
 Using CMB2 you can set options and slide and get the shortcode to put inside your code or your content.
 
 ## How to
