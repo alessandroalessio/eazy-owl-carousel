@@ -4,7 +4,7 @@
 This plugin allow to create a custom post type name "Carousel" that you implement in your custom theme.
 Using CMB2 you can set options and slide and get the shortcode to put inside your code or your content.
 
-##How to
+## How to
 a) Clone plugin o download and put into your wp-content/plugin directory
 b) Enable the plugin
 c) Create your first Carousel from the admin section
