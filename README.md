@@ -11,7 +11,6 @@ Using CMB2 you can set options and slide and get the shortcode to put inside you
 - Get the shortcode and use it!
 
 ## TODO
-- Import OWL Carousel Script and Styles
 - Translate in italian
 
 ## Credits
