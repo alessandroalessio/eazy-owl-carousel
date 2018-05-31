@@ -42,6 +42,11 @@ class Eazy_OWL_Carousel{
         $this->options = [
             'items' => get_post_meta( $this->ID, 'opt_items' ),
             'margin' => get_post_meta( $this->ID, 'opt_margin' ),
+            'loop' => get_post_meta( $this->ID, 'opt_loop' ),
+            'nav' => get_post_meta( $this->ID, 'opt_nav' ),
+            'dots' => get_post_meta( $this->ID, 'opt_dots' ),
+            'autoplay' => get_post_meta( $this->ID, 'opt_autoplay' ),
+            'autoplaySpeed' => get_post_meta( $this->ID, 'opt_autoplaySpeed' ),
         ];
     }
 

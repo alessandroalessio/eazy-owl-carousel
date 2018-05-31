@@ -29,3 +29,8 @@ require_once( __DIR__ . '/admin/scripts.php' );
  * Shortcode for Carousel
  */
 require_once( __DIR__ . '/frontend/shortcode.php' );
+
+/**
+ * Styles and script Frontend
+ */
+require_once( __DIR__ . '/frontend/scripts.php' );

@@ -93,6 +93,61 @@ function eazy_owl_carousel_metabox() {
             'pattern' => '\d*',
         ),
     ) );
+    $cmb->add_field( array(
+        'name'    => __('Loop', 'eazy_owl_carousel'),
+        'desc'    => __('Loop the carousel', 'eazy_owl_carousel'),
+        'default' => 'false',
+        'id'      => 'opt_loop',
+        'type'    => 'radio_inline',
+        'options' => array(
+            'false' => __( 'No', 'eazy_owl_carousel' ),
+            'true'   => __( 'Yes', 'eazy_owl_carousel' ),
+        ),
+    ) );    
+    $cmb->add_field( array(
+        'name'    => __('Navigation', 'eazy_owl_carousel'),
+        'desc'    => __('Enable arrow to move carousel', 'eazy_owl_carousel'),
+        'default' => 'false',
+        'id'      => 'opt_nav',
+        'type'    => 'radio_inline',
+        'options' => array(
+            'false' => __( 'No', 'eazy_owl_carousel' ),
+            'true'   => __( 'Yes', 'eazy_owl_carousel' ),
+        ),
+    ) );
+    $cmb->add_field( array(
+        'name'    => __('Dots', 'eazy_owl_carousel'),
+        'desc'    => __('Display dots to navigation', 'eazy_owl_carousel'),
+        'default' => 'false',
+        'id'      => 'opt_dots',
+        'type'    => 'radio_inline',
+        'options' => array(
+            'false' => __( 'No', 'eazy_owl_carousel' ),
+            'true'   => __( 'Yes', 'eazy_owl_carousel' ),
+        ),
+    ) );
+    $cmb->add_field( array(
+        'name'    => __('Autoplay', 'eazy_owl_carousel'),
+        'desc'    => __('Enable autostar for carousel', 'eazy_owl_carousel'),
+        'default' => 'false',
+        'id'      => 'opt_autoplay',
+        'type'    => 'radio_inline',
+        'options' => array(
+            'false' => __( 'No', 'eazy_owl_carousel' ),
+            'true'   => __( 'Yes', 'eazy_owl_carousel' ),
+        ),
+    ) );
+    $cmb->add_field( array(
+        'name'    => __('Autoplay Speed', 'eazy_owl_carousel'),
+        'desc'    => __('Speed after slide', 'eazy_owl_carousel'),
+        'default' => '3000',
+        'id'      => 'opt_autoplaySpeed',
+        'type'    => 'text_small',
+        'attributes' => array(
+            'type' => 'number',
+            'pattern' => '\d*',
+        ),
+    ) );
 
     // Box
     $cmb = new_cmb2_box( array(
